@@ -14,17 +14,17 @@ Interactive web tool and CLI for developers auditing LLM guardrail robustness ag
 
 ## Overview
 
-> **OWASP LLM01 & LLM02** | **NIST AI RMF** | **100% Defensive — Zero Offensive Payloads**
+> **OWASP LLM01 & LLM02** | **NIST AI RMF** | **100% Defensive  -  Zero Offensive Payloads**
 
 ## 5 Defensive Test Vectors
 
 | # | Vector | Coverage |
 |---|--------|----------|
-| 1 | **Delimiter Escape** — Detects injected control tokens (`</system>`, `[/INST]`, ` ``` `) | ✅ |
-| 2 | **System Prompt Leakage** — Identifies instruction extraction patterns | ✅ |
-| 3 | **Role/Persona Override** — Checks resistance to persona overrides (DAN, dev mode) | ✅ |
-| 4 | **Structural Obfuscation** — Evaluates coverage against Base64, leetspeak, Unicode homoglyphs | ✅ |
-| 5 | **Indirect Context Injection** — Simulates a RAG document with an embedded payload | ✅ |
+| 1 | **Delimiter Escape**  -  Detects injected control tokens (`</system>`, `[/INST]`, ` ``` `) | ✅ |
+| 2 | **System Prompt Leakage**  -  Identifies instruction extraction patterns | ✅ |
+| 3 | **Role/Persona Override**  -  Checks resistance to persona overrides (DAN, dev mode) | ✅ |
+| 4 | **Structural Obfuscation**  -  Evaluates coverage against Base64, leetspeak, Unicode homoglyphs | ✅ |
+| 5 | **Indirect Context Injection**  -  Simulates a RAG document with an embedded payload | ✅ |
 
 ---
 
@@ -54,11 +54,11 @@ python llm_robustness_evaluator.py --prompt "You are a helpful assistant."
 
 ```
 Resilience Score: 85/100
-✅ V1 Delimiter Escape — PASS
-✅ V2 System Prompt Leakage — PASS
-✅ V3 Role/Persona Override — PASS
-✅ V4 Structural Obfuscation — PASS
-⚠️  V5 Indirect Context Injection — WARNING
+✅ V1 Delimiter Escape  -  PASS
+✅ V2 System Prompt Leakage  -  PASS
+✅ V3 Role/Persona Override  -  PASS
+✅ V4 Structural Obfuscation  -  PASS
+⚠️  V5 Indirect Context Injection  -  WARNING
 ```
 
 ---
@@ -88,12 +88,12 @@ Access the official TAVARDT portal network:
 
 ## License
 
-MIT License — free use for defensive and educational purposes.
+MIT License  -  free use for defensive and educational purposes.
 
 ---
 
 <p align="center">
-  <strong>TAVARDT — United Kingdom</strong><br>
+  <strong>TAVARDT  -  United Kingdom</strong><br>
   <a href="https://ag.tavardt.com/uk/">https://ag.tavardt.com/uk/</a> &bull;
   <a href="https://tools.tavardt.com/uk/">https://tools.tavardt.com/uk/</a><br>
   &copy; 2026 TAVARDT. All rights reserved.
