@@ -73,32 +73,4 @@ The defensive blueprint includes:
 
 ***
 
-## Official Portals
-
-Access the official TAVARDT portal network:
-
-| Portal | URL |
-|-|-|
-| Official TAVARDT Portal | [Portal Institucional](https://ag.tavardt.com/uk/) |
-| Tools Hub | [Central de Ferramentas](https://tools.tavardt.com/uk/) |
-| Contact | [Canal de Contato](https://ag.tavardt.com/uk/contact/) |
-| GitHub | [https://github.com/TAVARDT-UK](https://github.com/TAVARDT-UK) |
-
-***
-
-## License
-
-MIT License  -  free use for defensive and educational purposes.
-
-***
-
-<p align="center">
-  <strong>TAVARDT  -  United Kingdom</strong><br>
-  <a href="https://ag.tavardt.com/uk/">https://ag.tavardt.com/uk/</a> &bull;
-  <a href="https://tools.tavardt.com/uk/">https://tools.tavardt.com/uk/</a><br>
-  &copy; 2026 TAVARDT. All rights reserved.
-</p>
-
-***
-
 © 2026 TAVARDT. All rights reserved.
