@@ -10,7 +10,7 @@
 
 Interactive web tool and CLI for developers auditing LLM guardrail robustness against injection vectors, system prompt leakage, and structural attacks. Resilience Score 0-100 + defensive blueprint.
 
----
+***
 
 ## Overview
 
@@ -19,14 +19,14 @@ Interactive web tool and CLI for developers auditing LLM guardrail robustness ag
 ## 5 Defensive Test Vectors
 
 | # | Vector | Coverage |
-|---|--------|----------|
+|-|-|-|
 | 1 | **Delimiter Escape**  -  Detects injected control tokens (`</system>`, `[/INST]`, ` ``` `) | ✅ |
 | 2 | **System Prompt Leakage**  -  Identifies instruction extraction patterns | ✅ |
 | 3 | **Role/Persona Override**  -  Checks resistance to persona overrides (DAN, dev mode) | ✅ |
 | 4 | **Structural Obfuscation**  -  Evaluates coverage against Base64, leetspeak, Unicode homoglyphs | ✅ |
 | 5 | **Indirect Context Injection**  -  Simulates a RAG document with an embedded payload | ✅ |
 
----
+***
 
 ## Online Tool
 
@@ -34,7 +34,7 @@ Access the interactive tool directly:
 
 🌐 **[https://tavardt-uk.github.io/llm-robustness-evaluator-uk/](https://tavardt-uk.github.io/llm-robustness-evaluator-uk/)**
 
----
+***
 
 ## CLI Usage
 
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 ### Run
 
 ```bash
-python llm_robustness_evaluator.py --prompt "You are a helpful assistant."
+python llm_robustness_evaluator.py -prompt "You are a helpful assistant."
 ```
 
 ```
@@ -61,7 +61,7 @@ Resilience Score: 85/100
 ⚠️  V5 Indirect Context Injection  -  WARNING
 ```
 
----
+***
 
 ## Defensive Architecture
 
@@ -71,26 +71,26 @@ The defensive blueprint includes:
 - 📦 TypeScript middleware for Next.js APIs
 - 🔒 Hardened System Prompt template with immutable delimiters
 
----
+***
 
 ## Official Portals
 
 Access the official TAVARDT portal network:
 
 | Portal | URL |
-|--------|-----|
-| Official TAVARDT Portal | [https://ag.tavardt.com/uk/](https://ag.tavardt.com/uk/) |
-| Tools Hub | [https://tools.tavardt.com/uk/](https://tools.tavardt.com/uk/) |
-| Contact | [https://ag.tavardt.com/uk/contact/](https://ag.tavardt.com/uk/contact/) |
+|-|-|
+| Official TAVARDT Portal | [Portal Institucional](https://ag.tavardt.com/uk/) |
+| Tools Hub | [Central de Ferramentas](https://tools.tavardt.com/uk/) |
+| Contact | [Canal de Contato](https://ag.tavardt.com/uk/contact/) |
 | GitHub | [https://github.com/TAVARDT-UK](https://github.com/TAVARDT-UK) |
 
----
+***
 
 ## License
 
 MIT License  -  free use for defensive and educational purposes.
 
----
+***
 
 <p align="center">
   <strong>TAVARDT  -  United Kingdom</strong><br>
