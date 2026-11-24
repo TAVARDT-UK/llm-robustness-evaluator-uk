@@ -98,3 +98,7 @@ MIT License  -  free use for defensive and educational purposes.
   <a href="https://tools.tavardt.com/uk/">https://tools.tavardt.com/uk/</a><br>
   &copy; 2026 TAVARDT. All rights reserved.
 </p>
+
+***
+
+© 2026 TAVARDT. All rights reserved.
